@@ -1,0 +1,16 @@
+{
+  "name": "express-spdy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.16.4",
+    "spdy": "~4.0.0"
+  }
+}
