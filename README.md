@@ -29,7 +29,7 @@ If needed, there is some explanations in the related README.
 
 - [Create React App](./examples/create-react-app)
 - [HTTP/2 with express and spdy](./examples/express-spdy)
-- [webpack-dev-server](./examples/webpack-dev/server)
+- [webpack-dev-server](./examples/webpack-dev-server)
 
 ## Contributing
 
