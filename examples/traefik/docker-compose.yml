@@ -3,9 +3,10 @@ version: '3.4'
 services:
     reverse-proxy:
         image: traefik # The official Traefik docker image
-        command: --docker # Enables the web UI and tells Træfik to listen to docker
+        command: --docker --api # Enables the web UI and tells Træfik to listen to docker
         ports:
             - '3000:443'
+            - '8000:8080'
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
             - ../../certs/server.crt:/sslcerts/server.crt

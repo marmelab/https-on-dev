@@ -7,6 +7,8 @@
 
 Run `make start` and go to `https://localhost:3000/`.
 
+The Traefik dashboard will be available at `http://localhost:8000`.
+
 Traefik is a reverse proxy and a load balancer and can be used directly from docker compose:
 
 ```yml
