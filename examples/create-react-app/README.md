@@ -16,7 +16,7 @@ Sadly, create-react-app doesn't allow to pass custom certificates without ejecti
 
 ### Workaround
 
-[Zwerge](https://github.com/Zwerge) found a warkaround: replace the CRA's webpack-dev-server default TLS certificate on the fly.
+[Zwerge](https://github.com/Zwerge) found a workaround: replace webpack-dev-server's default TLS certificate on the fly.
 
 To do so, you can add a `prestart` instruction in the `package.json`:
 
