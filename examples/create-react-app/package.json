@@ -8,6 +8,7 @@
     "react-scripts": "2.1.3"
   },
   "scripts": {
+    "prestart": "(cat ../../certs/server.crt ../../certs/server.key > ./node_modules/webpack-dev-server/ssl/server.pem) || :",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
